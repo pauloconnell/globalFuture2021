@@ -15,13 +15,13 @@ export default () => (
     <div class="container">
       <div id="main">
         <center>
-          <h1>
+       <h1>
             Global Future: <br />
               World Unity
             <br />
             <u>The Master Plan:</u>
+
           </h1>
-          
           
         </center>
         <div class="row">

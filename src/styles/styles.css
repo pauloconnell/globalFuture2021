@@ -114,12 +114,6 @@ code {
   }
 }
 
-
-
-
-
-
-
 /******************************************************************************
 START Glitch hello-app default styles
 
@@ -248,11 +242,9 @@ h1 {
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
-  font-size: 100px;
   line-height: 105%;
 }
 .page h1 {
-  font-size: 48px;
 }
 
 .page p {
