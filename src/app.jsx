@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Router, Link } from "wouter";
-import Header from "./components/header";
+
+
 
 /*
 This code defines the react app
@@ -17,7 +18,8 @@ import "./styles/styles.css";
 // Where all of our pages come from
 import PageRouter from "./components/router.jsx";
 import useHashLocation from "./hooks/wouter-hash";
-
+import Header from "./components/header";
+import Footer from "./components/footer";
 // The component that adds our Meta tags to the page
 import Seo from './components/seo.jsx';
 
@@ -32,6 +34,7 @@ export default function Home() {
           {/* Router specifies which component to insert here as the main content */}
           <PageRouter />
         </div>
+        <Footer />
       </main>
       {/* Footer links to Home and About, Link elements matched in router.jsx */}
       <footer className="footer">

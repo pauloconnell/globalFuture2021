@@ -12,26 +12,18 @@ Our site just has two routes in it–Home and About
 */
 
 export default () => (
-    <div class="container">
-      <div id="main">
+  <div className="container">
+    <div id="main">
+      <center></center>
+      <div className="row">
         <center>
-       <h1>
-            Global Future: <br />
-              World Unity
-            <br />
-            <u>The Master Plan:</u>
-
-          </h1>
-          
-        </center>
-        <div class="row">
-       <center>
-          <a href="/"><button>Top of Page</button></a>
+          <a href="/">
+            <button>Top of Page</button>
+          </a>
           <br />
-          Please leave a comment -any info/facts or suggestions are welcome.<br />
+          Please leave a comment -any info/facts or suggestions are welcome.
           <br />
-
-         
+          <br />
           <form
             action="mailto:p_ollie@hotmail.com"
             method="post"
@@ -39,13 +31,22 @@ export default () => (
             id="commentForm"
           >
             <div id="inputs">
-              <label for="email"><b>Email:</b><i>Optional</i></label>
+              <label for="email">
+                <b>Email:</b>
+                <i>Optional</i>
+              </label>
               <input type="email" id="email" name="email" />
-              <label for="fname"><b>First name:</b><i>Optional</i></label>
-              <input type="text" id="fname" name="fname" /><br /><br />
-              Comment on existing or new topic?<br />
-              <div class="radioButtons">
-                <div class="row">
+              <label for="fname">
+                <b>First name:</b>
+                <i>Optional</i>
+              </label>
+              <input type="text" id="fname" name="fname" />
+              <br />
+              <br />
+              Comment on existing or new topic?
+              <br />
+              <div className="radioButtons">
+                <div className="row">
                   <input
                     type="radio"
                     id="populationRadio"
@@ -83,12 +84,14 @@ export default () => (
                   <label for="plastic">plastic</label>
                 </div>
               </div>
-              <div class="radioButtons">
+              <div className="radioButtons">
                 <input type="radio" id="climat" value="newTopic" name="radio" />
-                <label for="newTopic"> New Topic</label><br />
+                <label for="newTopic"> New Topic</label>
+                <br />
               </div>
-              <div class="details">
-                <label>Comments:</label><br />
+              <div className="details">
+                <label>Comments:</label>
+                <br />
                 <textarea
                   name="comment"
                   maxlength="600"
@@ -99,8 +102,7 @@ export default () => (
             </div>
           </form>
         </center>
-        </div>
       </div>
+    </div>
   </div>
-  
 );
