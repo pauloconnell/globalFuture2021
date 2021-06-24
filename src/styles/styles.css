@@ -9,11 +9,6 @@ body {
   background-color: #f5f5f5;
   font-size: 4vw;
 }
-.details {
-  background-color: white;
-  border: 3px solid black;
-  border-radius: 4px;
-}
 
 h1 {
   font-weight: bold;
@@ -82,6 +77,15 @@ code {
   padding: 2px;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.details {
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 4px;
+}
 
 .radioButtons {
   border: 1px solid black;
@@ -91,17 +95,12 @@ code {
   background-color: grey;
 }
 
-.bold {
-  font-weight: bold;
-}
+
 #main {
   background-color: lightblue;
   border-radius: 5px;
 }
-#details {
-  background-color: white;
-  border: 3px solid black;
-}
+
 #googleBox {
   width: 90%;
 }

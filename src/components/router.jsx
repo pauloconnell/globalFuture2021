@@ -3,6 +3,7 @@ import { Switch, Route, Router } from "wouter";
 import Home from "../pages/home";
 import About from "../pages/about";
 import Food from "../pages/food";
+import Packaging from "../pages/packaging";
 
 /*
 The router is imported in app.jsx
@@ -17,5 +18,6 @@ export default () => (
     <Route path="/" component={Home} />
     <Route path="/about" component={About} />
     <Route path="/food" component={Food} />
+    <Route path="/packaging" component={Packaging} />
   </Switch>
 );
