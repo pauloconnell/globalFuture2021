@@ -31,9 +31,11 @@ export default () => (
             <a href="/population">
               <button id="population">Population Plan</button>
             </a>
-            <a href="/climate">
-              <button id="climate">Climate Management</button>
-            </a>
+
+            <button>
+              <Link href="/climate">Climate Management</Link>
+            </button>
+
             <button>
               <Link href="/food">Food</Link>
             </button>
