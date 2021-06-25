@@ -47,6 +47,8 @@ export default function Home() {
           <Link href="/food">Food</Link>
           <span className="divider">|</span>
           <Link href="/packaging">Packaging</Link>
+          <span className="divider">|</span>
+          <Link href="/climate">Climate</Link>
         </div>
         <a
           className="btn--remix"
