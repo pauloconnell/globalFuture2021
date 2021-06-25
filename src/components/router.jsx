@@ -5,6 +5,7 @@ import About from "../pages/about";
 import Food from "../pages/food";
 import Packaging from "../pages/packaging";
 import Climate from "../pages/climate";
+import Water from "../pages/water";
 
 /*
 The router is imported in app.jsx
@@ -21,5 +22,7 @@ export default () => (
     <Route path="/food" component={Food} />
     <Route path="/packaging" component={Packaging} />
     <Route path="/climate" component={Climate} />
+    <Route path="/water" component={Water} />
+    
   </Switch>
 );
