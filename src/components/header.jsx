@@ -2,8 +2,7 @@ import * as React from "react";
 import { Switch, Route, Router } from "wouter";
 import Home from "../pages/home";
 import About from "../pages/about";
-import Food from "../pages/food";
-import Packaging from "../pages/packaging";
+
 import { Link } from "wouter";
 
 /*

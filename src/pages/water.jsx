@@ -19,10 +19,9 @@ export default function Water() {
             <br/>
             What is the global standard for provision of clean drinking water?
           </h3>
-          <br />
+      
         </div>
       </center>
-      <br />
       <br />
 
       <div className="container">
@@ -31,9 +30,6 @@ export default function Water() {
         <center>
           <div className="content"></div>
         </center>
-        <br />
-        <br />
-        <br />
         <div className="details">
           <center>
             <u>Water is essential for life</u>

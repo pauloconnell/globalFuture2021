@@ -12,7 +12,7 @@ export default function Climate() {
     <div>
       <center>
         <div className="content">
-          <h2>Set the Global Standards:</h2>
+          <h2>Set the Global Standards for Climate Management:</h2>
           <br />
           <h3>What are the most reasonable steps we must take to avoid carbon pollution?</h3>
           <br />
@@ -21,12 +21,12 @@ export default function Climate() {
       <br />
       <br />
 
-      <div class="container">
+      <div className="container">
         <center>
-          <div id="content"></div>
+          <div className="content"></div>
         </center>
        
-        <div id="details">
+        <div className="details">
           <center>
             <u>We can save the world</u>
           </center>
