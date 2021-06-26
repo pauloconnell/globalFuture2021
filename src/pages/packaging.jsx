@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Link } from "wouter";
+//import { image } from  "https://res-console.cloudinary.com/pollie/thumbnails/transform/v1/image/upload/Y19zY2FsZSx3XzEwOTE=/v1606855539/cGFja2FnaW5nX3N1cDZkYw==/template_primary";
 
 /*
 The Home function defines the content that makes up the main content of the Home page
@@ -13,24 +14,18 @@ export default function Packaging() {
       <center>
         <div className="content">
           <h2>Global Standard:</h2>
-          <br />
-          <h3>
-            Use of plastic should be reduced, and weshould be available to all.
-          </h3>
+
+          <h3>Limit 'over packaging' by identifying ideal packaging for types of products.</h3>
           <br />
         </div>
       </center>
-      <br />
-
-      <br />
-      <br />
 
       <div className="container">
         <br />
         <br />
         <div className="details">
           <center>
-            <u>We need to limit 'over packaging'</u>
+            <u>Too many companies are wasting resources 'over packaging'</u>
           </center>
           <br />
           <br />
