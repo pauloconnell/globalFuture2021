@@ -12,7 +12,7 @@ export default function Climate() {
     <div>
       <center>
         <div className="content">
-          <h2>Set the Global Standards for Climate Management:</h2>
+          <h2>Global Standards for Climate Management:</h2>
           <br />
           <h3>What are the most reasonable steps we must take to avoid carbon pollution?</h3>
           <br />

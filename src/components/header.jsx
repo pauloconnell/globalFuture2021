@@ -47,7 +47,7 @@ export default () => (
             </button>
 
             <button>
-              <Link href="/transport">transport</Link>
+              <Link href="/transportation">transport</Link>
             </button>
 
             <button>
