@@ -7,7 +7,7 @@ import Packaging from "../pages/packaging";
 import Climate from "../pages/climate";
 import Water from "../pages/water";
 import Plastics from "../pages/plastics";
-
+import Transportation from "../pages/transportation";
 /*
 The router is imported in app.jsx
 
@@ -25,6 +25,7 @@ export default () => (
     <Route path="/climate" component={Climate} />
     <Route path="/water" component={Water} />
     <Route path="/plastics" component={Plastics} />
+    <Route path="/transportation" component={Transportation} />
     
   </Switch>
 );

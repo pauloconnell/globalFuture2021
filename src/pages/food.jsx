@@ -12,7 +12,7 @@ export default function Food() {
     <div>
       <center>
         <div className="content">
-          <h2>Global 'Government' set the Global Standards:</h2>
+          <h2>Global Standards:</h2>
           <br />
           <h3>Food should not be toxic, and should be available to all.</h3>
           <br />
